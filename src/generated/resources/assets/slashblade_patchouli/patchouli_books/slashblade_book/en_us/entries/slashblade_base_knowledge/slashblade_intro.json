@@ -1,0 +1,26 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:slashblade",
+  "name": "Before Everything Begins...",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Resharped, meaning to re-sharpen the blade.$()$(br)No matter how golden the age was, it will eventually pass. The weapon known as the Slash Blade has gradually been buried in the dust of history...$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "slashblade:slashblade",
+      "text": "Fortunately, a certain swordsmith passed down the art of the Slash Blade and brought it into the new era. We generally honor him as $(l:https://www.curseforge.com/minecraft/mc-mods/the-last-smith)'The Last Smith'.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Even though the world has undergone many changes, and some swordsmen from the old era are resisting the new changes, countless new swordsmiths have taken up this craft.$()$(br)As one of the new swordsmiths, I cannot judge the merits of this change, but I can vaguely realize that change is necessary... As for how we have done in this change, let future generations judge.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "——mrqx0195$()"
+    }
+  ],
+  "priority": true,
+  "sortnum": 0
+}

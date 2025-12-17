@@ -1,0 +1,20 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "minecraft:enchanted_golden_apple",
+  "name": "Enchantment Enhancement Effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Enchantment Enhancement Effects$() are special mechanics in the Slash Blade mod, activating additional effects when the Slash Blade has specific enchantments.$()$(br2)Currently, the mod provides two enchantment enhancement effects:$()$(br)$(li)$(thing)Soul Speed$(): Extends the timing window for Guard and Special Attacks.$()$(li)$(thing)Slow Fall$(): Slows falling speed in the air, enhancing aerial mobility.$()$(br2)These enhancement effects increase with the enchantment level and are an important supplement to the Slash Blade combat system.$()$(br2)$(o)Note: Enchantment enhancement effects only activate when the Slash Blade has the corresponding enchantment.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Soul Speed$()$()$(br2)$(thing)Activation Condition$(): Slash Blade is enchanted with $(thing)Soul Speed$().$()$(br2)$(thing)Effect$():$()$(br)$(li)Each level extends the Guard timing window by $(thing)1 game tick$() (default window is 5 ticks).$()$(li)Each level extends the timing window for using Special Attacks $(thing)during sheathing$() by $(thing)1 game tick$() (default window is 3 ticks).$()$(li)At level 3 and above, each level extends the Special Attack timing window by $(thing)1 game tick$() (default window is 5 ticks).$()$(br2)$(thing)Practical Value$():$()$(br)Soul Speed significantly reduces the timing requirements for $(thing)Guard$() and $(thing)Special Attacks$(), making these advanced techniques easier to perform.$()$(br2)$(o)Core Role: Increases operational fault tolerance, allowing you to perform precise Guards and powerful Special Attacks more easily.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Slow Fall$()$()$(br2)$(thing)Activation Condition$(): Slash Blade is enchanted with $(thing)Feather Falling$().$()$(br2)$(thing)Effect$():$()$(br)$(li)When using $(thing)most Sword Arts$() in the air, significantly slows falling speed.$()$(li)The slowing effect increases with enchantment level: each level increases the $(thing)gravity reduction coefficient$().$()$(li)Manifests as significantly extended air time.$()$(br2)$(thing)Mechanism Explanation$():$()$(br)When using aerial Sword Arts, the game locks the falling distance calculation and resets the falling speed, allowing you to:$()$(li)Perform more combos in the air.$()$(li)Adjust aerial position more precisely.$()$(li)Safely descend from greater heights.$()$(br2)$(o)Note: This effect stacks with the inherent slowing effect of Sword Arts, producing significant results.$()"
+    }
+  ],
+  "sortnum": 0
+}

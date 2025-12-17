@@ -1,0 +1,17 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:proudsoul_crystal",
+  "name": "SE（特殊效果）的知识",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "特殊效果，简称SE，是拔刀剑所拥有的一种被动技能。$()$(br)不同的SE有着不同的效果，一把刀中可以共存多个SE。$()$(br)有些SE可以被复制或取下，有些SE则不行。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "slashblade:proudsoul_crystal",
+      "text": "利用$(item)耀魂结晶$()，可以复制、取下和添加拔刀剑的SE。具体方法请参考$(l:slashblade_base_knowledge/proudsoul_intro)“耀魂的知识”$()一节。$()"
+    }
+  ],
+  "sortnum": 0
+}

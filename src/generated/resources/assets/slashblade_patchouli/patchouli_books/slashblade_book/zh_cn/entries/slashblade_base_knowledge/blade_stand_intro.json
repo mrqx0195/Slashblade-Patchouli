@@ -1,0 +1,16 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:bladestand_1",
+  "name": "刀挂台",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "刀挂台用于摆放拔刀剑的工具，可以像方块一样放下。$()$(br)$(thing)立式$()刀挂台只能放于方块$(c)顶部$()，$(thing)挂式$()刀挂台只能放于方块$(c)侧面$()。$()$(br)放下后的刀挂台是实体（与$(item)盔甲架$()类似），手持拔刀对其$(k:use)可将其置入刀挂台。$()$(br)刀挂台是本模组的核心物品之一，用于对拔刀剑进行各种强化——包括耀魂附魔、$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_ingot)复制SA$()、$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_sphere)改变SA$()、$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_crystal)复制/改变SE$()。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "若要进行耀魂附魔，只需将需要附魔的拔刀置于任意刀挂台上，手持带有附魔的$(l:slashblade_base_knowledge/proudsoul_intro)耀魂材料$()对其按下$(k:attack)即可。$()$(br)不同材料的附魔成功概率：$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_tiny)破碎的耀魂$()：25%；$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul)耀魂碎片$()：50%；$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_ingot)耀魂铁锭$()：75%；$(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_sphere)耀魂宝珠$() / $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_crystal)耀魂结晶$() / $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_trapezohedron)耀偏方三八面魂$()：100%。$()$(br)对于其他未提及的耀魂材料（一般由附属添加），其概率通常也为100%。$()$(br)需要注意，耀魂附魔的优先级是最低的，如果操作满足复制SA、改变SA、复制/改变SE之一，则会优先进行这些操作，耀魂附魔则不会被触发。$()"
+    }
+  ],
+  "sortnum": 0
+}

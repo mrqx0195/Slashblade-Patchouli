@@ -1,0 +1,24 @@
+{
+  "category": "slashblade_patchouli:blade_arts",
+  "icon": "minecraft:feather",
+  "name": "Aerial Combos",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Aerial Combo Series$() allow you to perform sword techniques in mid-air, enabling three-dimensional combat.$()$(br2)$(thing)Aerial Rave A$(): Basic 3-hit aerial combo, suitable for aerial pursuit.$()$(br)$(thing)Aerial Rave B$(): Spectacular aerial sequence that can launch enemies.$()$(br2)$(thing)Important Mechanic$(): Using any aerial combo will $(thing)clear accumulated fall distance$(), preventing fall damage.$()$(br2)Most aerial combos have a $(thing)slow fall$() effect, extending air time.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Aerial Rave A$()$()$(br2)$(thing)Trigger$(): Press $(k:attack) 3 times consecutively in mid-air.$()$(br2)$(thing)Features$():$()$(li)Basic 3-hit aerial combo with steady attack rhythm.$()$(li)Slows falling speed, facilitating aerial position adjustment.$()$(li)3rd hit has higher attack power and can knock back enemies.$()$(li)$(thing)Clears accumulated fall distance$(), preventing fall damage.$()$(br2)$(o)Tip: While performing aerial combos, holding the forward key will move you forward.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Aerial Rave B$()$()$(br2)$(thing)Trigger$(): Press $(k:attack) twice in mid-air, $(thing)pause$() then press $(k:attack) twice.$()$(br2)$(thing)Features$():$()$(li)Spectacular aerial sequence that $(thing)launches enemies upward$().$()$(li)Second hit has strong $(thing)toss$() effect.$()$(li)Suitable for continuous aerial suppression of enemies.$()$(li)$(thing)Clears accumulated fall distance$(), preventing fall damage.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Aerial Combo Techniques$():$()$(br)$(li)Use $(thing)Kick Jump$() or $(thing)Enemy Step$() to extend air time, performing more aerial combos.$()$(li)Aerial Rave B's $(thing)toss$() effect keeps enemies airborne, facilitating continued pursuit.$()$(li)$(thing)Fall Protection$(): Any aerial combo will $(thing)reset fall distance calculation$(), use this mechanic to land safely from heights.$()$(li)Be mindful of $(thing)stamina consumption$() during aerial combos to avoid inability to use other mobility skills.$()$(br2)$(o)Safety Tip: Using aerial combos to reset fall distance is an important survival skill, especially when exploring areas with significant height differences!$()"
+    }
+  ],
+  "sortnum": 0
+}

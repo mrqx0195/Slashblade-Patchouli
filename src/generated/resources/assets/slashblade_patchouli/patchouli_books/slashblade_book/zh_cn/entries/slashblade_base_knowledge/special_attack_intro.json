@@ -1,0 +1,26 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:proudsoul_sphere",
+  "name": "SA（特殊攻击）的知识",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "特殊攻击，简称SA，是拔刀剑所拥有的一种主动技能。$()$(br)一般而言，你可以长按$(k:use)一段时间后松开来释放SA。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "slashblade:proudsoul_ingot,slashblade:proudsoul_sphere",
+      "text": "利用$(item)耀魂铁锭$()和$(item)耀魂宝珠$()，可以复制和改变拔刀剑的SA。具体方法请参考$(l:slashblade_base_knowledge/proudsoul_intro)“耀魂的知识”$()一节。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果长按$(k:use)、或是使用某些剑技后在“恰当的时机”松开，将会触发$(thing)“迅速蓄力”$()，此时释放的SA将会更加强力。$()$(br)通常，这个时机是在$(thing)纳刀的瞬间$()。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "super_slash_arts",
+      "text": "如果你的刀中$(l:slashblade_base_knowledge/blade_states#fiercer_edge)蕴含了某种力量$()且为满耐久，你将可以使用更为强大的超SA（Super Slash Arts）。$()$(br)不同SA对应着不同的超SA，大多数情况下，这个超SA是$(thing)次元斩·绝$()——对你附近的所以可锁定目标释放一次次元斩。$()$(br)释放超SA会折损一半的耐久值，因此通常无法连续多次使用。$()"
+    }
+  ],
+  "sortnum": 0
+}

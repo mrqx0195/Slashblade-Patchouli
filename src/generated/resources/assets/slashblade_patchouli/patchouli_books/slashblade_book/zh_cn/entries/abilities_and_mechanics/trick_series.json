@@ -1,0 +1,41 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:ender_pearl",
+  "name": "瞬步系列",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)瞬步系列$()是拔刀剑所拥有的一类关键的移动与闪避能力，允许玩家在不同情境下进行瞬间移动，大幅提升机动性。$()$(br2)$(thing)瞬步上行$()：向上瞬间移动$()$(br)$(thing)隔空瞬步$()：向锁定的敌人头上瞬间移动$()$(br)$(thing)瞬步退行$()：空中迅速落地$()$(br)$(thing)瞬步回避$()：向任意方向短距离瞬移躲避$()$(br2)这些能力共享部分按键，且多数具有$(thing)取消$()（Cancel）效果，可用于中断剑技后摇，实现高阶连招。$()$(br2)$(o)提示：这些能力多具有0.5秒的无敌状态（Untouchable），善用可规避大量伤害。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)共通特性与技巧$()：$()$(li)多数瞬步提供$(thing)0.5秒无敌$()，善用可规避关键伤害；$()$(li)隔空瞬步和瞬步回避的取消效果为$(thing)“待命”状态$()，与踢跃的$(thing)“无”状态$()不同，在部分判定中仍被视为使用剑技；$()$(li)瞬步上行和隔空瞬步$(thing)共享按键$()，隔空瞬步优先；$()$(li)瞬步退行和瞬步回避在各自条件下触发，$(thing)互不冲突$()。$()$(br2)$(thing)实战应用$()：$()$(li)利用隔空瞬步$(thing)快速贴近远程敌人$()或躲避范围技能；$()$(li)瞬步退行用于$(thing)快速落地规避空中攻击$()；$()$(li)瞬步回避在Boss战中用于$(thing)精确调整位置$()和$(thing)取消剑技后摇$()；$()$(li)赶路时用瞬步回避$(thing)提升移动效率$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)瞬步上行$()$()$(br2)$(thing)作用$()：向上瞬间移动一段距离。$()$(br)$(thing)按键$()：$(k:sneak) + $(k:forward) + $(k:slashblade.special_move)$()$(br2)$(thing)触发条件$()：$()$(li)此前未按下特殊移动键；$()$(li)同时按住$(thing)潜行、向前移动、特殊移动$()。$()$(br2)$(thing)触发效果$()：$()$(li)获得$(thing)0.5秒$()无敌状态；$()$(li)重置垂直下落速度为$(thing)0.8格/秒$()（类似跳跃）。$()若此时有锁定目标，会优先触发$(thing)隔空瞬步$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "air_trick",
+      "text": "$(thing)隔空瞬步$()$()$(br2)$(thing)作用$()：瞬间移动到$(thing)已锁定目标$()的头部位置。$()$(br)$(thing)按键$()：$(k:sneak) + $(k:forward) + $(k:slashblade.special_move)$()$(br2)$(thing)触发条件$()：$()$(li)已锁定一个目标；$()$(li)按键条件同瞬步上行。$()$(br2)$(thing)优先级$()：当同时满足瞬步上行和隔空瞬步条件时，$(thing)隔空瞬步优先$()触发。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)隔空瞬步触发流程$()：$()$(li)若目标在$(thing)5秒内伤害过你$()，直接执行传送；$()$(li)否则发射一枚$(thing)伤害极低的幻影剑$()，命中后执行传送（若命中非原目标则取消）。$()$(br2)$(thing)传送效果$()：$()$(li)获得$(thing)0.5秒$()无敌状态；$()$(li)重置剑技为$(thing)“待命”状态$()（实现取消效果）；$()$(li)传送至目标$(thing)面部前方$()位置（可跨维度）；$()$(li)强制退出骑乘/睡觉状态。$()$(br2)$(o)注意：“待命”状态在部分判定中仍被视为使用剑技，与踢跃的“无”状态不同。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)瞬步退行$()$()$(br2)$(thing)作用$()：在空中时迅速落地。$()$(br)$(thing)按键$()：$(k:sneak) + $(k:back) + $(k:slashblade.special_move)$()$(br2)$(thing)触发条件$()：$()$(li)此前未触发瞬步上行或隔空瞬步；$()$(li)处于$(thing)空中$()；$()$(li)同时按住$(thing)潜行、向后移动、特殊移动$()。$()$(br2)$(thing)触发效果$()：$()$(li)向下移动$(thing)5格$()（若落地则成功，否则回退）；$()$(li)获得$(thing)0.5秒$()无敌状态。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)瞬步回避$()$()$(br2)$(thing)作用$()：向$(thing)任意方向$()短距离瞬移，用于躲避伤害或赶路。$()$(br)$(thing)按键$()：$(k:slashblade.special_move) + $(k:forward) / $(k:back) / $(k:left) / $(k:right)$()$(br2)$(thing)触发条件$()：$()$(li)此前未触发其他瞬步能力；$()$(li)站在$(thing)地面$()上；$()$(li)按住$(thing)特殊移动$()和任意方向键；$()$(li)$(thing)连续使用次数小于3次$()，或距离上次使用已过$(thing)1秒$()。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)瞬步回避效果$()：$()$(li)向按键方向位移$(thing)3格$()（不会从边缘跌落）；$()$(li)获得$(thing)0.5秒$()无敌状态；$()$(li)重置剑技为$(thing)“待命”状态$()（取消效果，同隔空瞬步）。$()$(br2)$(thing)连续使用限制$()：$()$(br)最多连续使用$(thing)3次$()，之后需要等待$(thing)1秒$()冷却才能再次使用。$()$(br2)$(thing)赶路技巧$()：$()$(br)可间断按下 $(k:slashblade.special_move) + $(k:forward )实现$(thing)连续向前瞬移$()，大幅提升移动速度。"
+    }
+  ],
+  "sortnum": 0
+}

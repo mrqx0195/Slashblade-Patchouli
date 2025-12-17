@@ -1,0 +1,51 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "minecraft:enchanted_book",
+  "name": "Blade States",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Blade States$() are one of the core mechanics of Slash Blades, determining the blade's attributes, abilities, and growth stages.$()$(br2)$(thing)Basic States$():$()$(br)$(li)$(thing)Noname$(): Basic state with no name and no enchantments.$()$(li)$(thing)Enchanted$(): State with enchantments.$()$(li)$(thing)Bewitched$(): State with enchantments and a custom name.$()$(br2)$(thing)Advanced States$():$()$(br)$(li)$(thing)Fiercer Edge$(): Obtained when Kill Count ≥ 1000.$()$(li)$(thing)Soul Eater$(): Obtained when Proud Soul Value ≥ 10000.$()$(br)$(thing)Abnormal States$():$()$(br)$(li)$(thing)Broken$(): Damaged state when durability reaches zero.$()$(li)$(thing)Sealed$(): Basic sealed state of some blades.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "noname",
+      "text": "$(thing)Basic State - Sealed$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)When the Slash Blade is not in $(thing)Enchanted$() or $(thing)Bewitched$() state, the tooltip displays as 'Sealed'.$()$(br2)$(thing)Description$():$()$(br)This is the most basic initial state of the Slash Blade, indicating the blade has not been enchanted or named.$()$(br)In this state, the blade can only use the most basic attacks and combos.$()$(br2)$(o)Note: This 'Sealed' state is different from the hidden $(thing)Sealed$() state!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "enchanted",
+      "text": "$(thing)Basic State - Enchanted$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)Obtained when the Slash Blade has $(thing)any enchantment$().$()$(br2)$(thing)Effects$():$()$(br)$(li)The blade's $(thing)rarity becomes Rare$() (blue).$()$(li)Can $(thing)use $(l:slashblade_base_knowledge/special_attack_intro)SA$()$().$()$(br2)$(thing)Note$():$()$(br)Some Slash Blades, including $(thing)Anonymity -Wood-$(), cannot obtain this state.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "bewitched",
+      "text": "$(thing)Basic State - Bewitched$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)Simultaneously satisfies:$()$(br)$(li)Has $(thing)any enchantment$().$()$(li)Has a custom name via $(thing)anvil naming$().$()$(br2)$(thing)Effects$():$()$(br)$(li)The blade's $(thing)rarity becomes Epic$() (purple).$()$(li)Tooltip will $(thing)display $(l:slashblade_base_knowledge/special_attack_intro)SA$()$().$()$(li)Allows release of $(l:slashblade_base_knowledge/special_attack_intro#super_slash_arts)Super Slash Arts$() (requires also having $(thing)Fiercer Edge$() state).$()$(li)If configuration allows, it will $(thing)automatically consume hunger and experience to repair$() itself while in the inventory.$()$(br2)This state overrides the display of the $(thing)Enchanted$() state."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "fiercer_edge",
+      "text": "$(thing)Advanced State - Fiercer Edge$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)Slash Blade's $(thing)Kill Count ≥ 1000$().$()$(br2)$(thing)Effects$():$()$(br)$(li)Allows release of $(l:slashblade_base_knowledge/special_attack_intro#super_slash_arts)Super Slash Arts$() (requires also having $(thing)Bewitched$() state).$()$(li)$(thing)Refine Count$() has a greater impact on attack damage.$()$(li)Kill Count is displayed in $(thing)dark purple$() (default gray).$()$(br2)$(o)Tip: This is an important milestone in blade growth, unlocking powerful finishing moves.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "soul_eater",
+      "text": "$(thing)Advanced State - Soul Eater$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)Slash Blade's $(thing)Proud Soul Value ≥ 10000$().$()$(br2)$(thing)Effects$():$()$(br)$(li)When killing creatures and gaining Proud Souls, $(thing)automatically repairs durability$() (repair amount = Proud Souls gained / 4, minimum 1 point).$()$(li)Proud Soul Value is displayed in $(thing)dark purple$() (default gray).$()$(br2)$(o)Tip: This is a sign of deep resonance between the blade and souls, greatly enhancing sustainability.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "broken",
+      "text": "$(thing)Abnormal State - Broken$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)Blade's $(thing)durability reaches zero$() and the blade does not disappear as a result.$()$(br2)$(thing)Effects$():$()$(br)$(li)Attack damage $(thing)greatly reduced$() (usually cannot deal damage).$()$(li)Blade appearance $(thing)model changes$() (displayed as broken).$()$(li)$(thing)Cannot use$(): $(l:slashblade_base_knowledge/special_attack_intro)SA$(), Super Slash Arts, all Summoned Sword skills, Guard/Just Guard.$()$(br2)$(thing)Repair Method$():$()$(br)If the blade does not have $(thing)Sealed$() state, $(thing)repair to full durability$() to recover.$()$(br2)$(o)Warning: After breaking, the blade's combat capability is almost zero. Repair it promptly!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sealed",
+      "text": "$(thing)Abnormal State - Sealed$()$()$(br2)$(thing)Acquisition Condition$():$()$(br)$(thing)Basic state$() of some Slash Blades, such as:$()$(br)$(li)Broken Sabigatana$()$()$(br)$(li)Broken Yamato$()$()$(br)$(thing)Effects$():$()$(br)$(li)All states are $(thing)hidden$() (not shown in tooltip).$()$(li)$(thing)Cannot enter Bewitched state$().$()$(li)$(thing)Cannot be repaired to unbroken state through normal methods$().$()$(li)$(thing)Cannot use$(): Special Attacks (SA), Super Slash Arts, all Summoned Sword skills.$()$(br2)$(o)Note: This is the sealed state of the blade, requiring special synthesis to解除.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)State Relationships and Growth$()：$()$(br2)$(thing)Basic Growth Path$():$()$(br)$(li)$(thing)Noname$() → $(thing)Enchanted$() (enchant) → $(thing)Bewitched$() (name)$()$(li)$(thing)Bewitched$() + Kill Count 1000 → $(thing)Fiercer Edge$()$()$(li)$(thing)Bewitched$() + Proud Soul Value 10000 → $(thing)Soul Eater$()$()$(br2)$(thing)Abnormal State Handling$():$()$(br)$(li)$(thing)Broken$(): Recover by repairing durability.$()$(li)$(thing)Sealed$():解除封印 through specific synthesis.$()$(br2)$(thing)Important Notes$():$()$(br)$(li)$(thing)Bewitched$() state is a prerequisite for unlocking advanced abilities.$()$(li)$(thing)Fiercer Edge$() and $(thing)Soul Eater$() can be possessed simultaneously.$()$(li)Some special Slash Blades (e.g., Anonymity -Wood-) have $(thing)unique state rules$().$()$(br2)$(o)Tip: Blade growth is the core of Slash Blade gameplay. Nurture your blade carefully, and it will become increasingly powerful!$()"
+    }
+  ],
+  "sortnum": 0
+}

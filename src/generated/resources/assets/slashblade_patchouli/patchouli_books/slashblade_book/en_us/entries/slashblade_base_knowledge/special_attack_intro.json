@@ -1,0 +1,26 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:proudsoul_sphere",
+  "name": "Knowledge of SA (Special Attack)",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Special Attack, abbreviated as SA, is an active skill possessed by Slash Blades.$()$(br)Generally, you can hold down $(k:use) for a while and then release to execute SA.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "slashblade:proudsoul_ingot,slashblade:proudsoul_sphere",
+      "text": "Using $(item)Proud Soul Ingot$() and $(item)Proud Soul Sphere$(), you can copy and change a Slash Blade's SA. For specific methods, refer to the $(l:slashblade_base_knowledge/proudsoul_intro)'Knowledge of Proud Souls'$() section.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you hold down $(k:use), or release at the 'right moment' after using certain sword skills, you trigger $(thing)'Quick Charge'$(), and the SA released will be more powerful.$()$(br)Usually, this moment is when the blade is $(thing)sheathed$().$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "super_slash_arts",
+      "text": "If your blade $(l:slashblade_base_knowledge/blade_states#fiercer_edge)contains a certain power$() and is at full durability, you can use an even more powerful Super Slash Arts.$()$(br)Different SAs correspond to different Super Slash Arts. In most cases, this Super Slash Arts is $(thing)Dimensional Slash - Absolute$()—releasing a Dimensional Slash against all lockable targets around you.$()$(br)Releasing Super Slash Arts consumes half of the durability, so it usually cannot be used multiple times in a row.$()"
+    }
+  ],
+  "sortnum": 0
+}

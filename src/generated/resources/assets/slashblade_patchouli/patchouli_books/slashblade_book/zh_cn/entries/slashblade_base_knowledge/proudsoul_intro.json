@@ -1,0 +1,81 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:proudsoul",
+  "name": "耀魂的知识",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "耀魂是刀剑的结晶，是拔刀剑斩杀敌人后所吸收的灵魂。$()$(br2)耀魂也可以看作是拔刀剑中储存的一种能量，利用这种能量能够释放幻影剑或$(l:slashblade_base_knowledge/special_attack_intro)SA$()，以进行更高水平的战斗。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)耀魂值$()代表着刀身中所积累的耀魂数目。当耀魂值达到$(thing)10000$()时，拔刀剑将会获得$(thing)噬魂者$()特性——在击杀生物时，将会基于其经验值掉落量修复手中拔刀剑的耐久值。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_tiny",
+      "item": "slashblade:proudsoul_tiny",
+      "text": "$(item)破碎的耀魂$()是耀魂最小的物品形式，作为强化材料时，其最高可以将拔刀强化至10级，同时每次强化会提供100耀魂值，用于刀挂台附魔时仅有25%的成功概率。$()$(br)当拔刀剑折断时，会有一截刀刃断开并向前飞出（具体样式取决于刀本身的模型），其在落地前会$(thing)发光$()并有白色粒子组成的轨迹，落地后会插在地上并发出紫色的粒子，靠近后就会以破碎的耀魂的形式进入物品栏。$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "slashblade:material/tiny",
+      "text": "根据断裂时拔刀剑的$(thing)耀魂值$()，可以获取到 1~10 枚$(item)破碎的耀魂$()，如果拔刀剑带有附魔，则可以额外再获取 1~10 枚$(thing)带有附魔的$()破碎的耀魂。当然，耀魂值也会因此而减少。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul",
+      "item": "slashblade:proudsoul",
+      "text": "$(item)耀魂碎片$()是耀魂材料之一。作为强化材料时，其最高可以将拔刀强化至50级，同时每次强化会提供500耀魂值，用于刀挂台附魔时仅有50%的成功概率。$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "slashblade:material/soul",
+      "text": "若合成时使用了$(thing)带有附魔的$()$(item)破碎的耀魂$()，合成出的耀魂碎片会带有所有破碎的耀魂上的附魔（相同附魔取合成栏中最后一个破碎的耀魂的附魔等级），后续耀魂材料同理。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_ingot",
+      "item": "slashblade:proudsoul_ingot",
+      "text": "$(item)耀魂铁锭$()是耀魂材料之一。作为强化材料时，其最高可以将拔刀强化至100级，同时每次强化会提供1000耀魂值，用于刀挂台附魔时具有75%的成功概率。$()$(br)除此之外，它还有另外一个用途：$(thing)复制拔刀的$(l:slashblade_base_knowledge/special_attack_intro)SA$()。$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "slashblade:material/ingot",
+      "text": "将一把带有附魔的拔刀置于刀挂台上，手持带有附魔的耀魂铁锭对其左键，之后会进行如下判定：$()$(br)如果拔刀$(c)没有$()SA，则$(c)不会$()进行复制；$()$(br)对耀魂铁锭上的每个附魔进行遍历：如果拔刀上存在$(c)相同的附魔$()，且拔刀上该附魔的等级$(c)不小于该附魔的最大等级$()，则会进行复制。$()$(br)复制后会得到一个带有该拔刀SA的$(item)耀魂宝珠$()，耀魂铁锭则会被消耗。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_sphere",
+      "item": "slashblade:proudsoul_sphere",
+      "text": "$(item)耀魂宝珠$()是耀魂材料之一。作为强化材料时，其最高可以将拔刀强化至150级，同时每次强化会提供1500耀魂值，用于刀挂台附魔时具有100%的成功概率。$()$(br)除此之外，它还有另外一个用途：$(thing)改变拔刀的$(l:slashblade_base_knowledge/special_attack_intro)SA$()。$()"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "slashblade:material/sphere_smelting",
+      "text": "将拔刀置于刀挂台上，手持带有SA的耀魂宝珠左键即可将宝珠中的SA转移至拔刀上$()$(br)拔刀上原有的SA会$(c)被覆盖$()，耀魂宝珠则会$(c)被消耗$()。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_crystal",
+      "item": "slashblade:proudsoul_crystal",
+      "text": "$(item)耀魂结晶$()是耀魂材料之一。作为强化材料时，其最高可以将拔刀强化至200级，同时每次强化会提供2000耀魂值，用于刀挂台附魔时具有100%的成功概率。$()$(br)除此之外，它还有另外两个用途：$(thing)复制/取下拔刀的$(l:slashblade_base_knowledge/special_effect_intro)SE$()$()，以及$(thing)为拔刀附加SE$()。$()"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "slashblade:material/crystal_blasting",
+      "text": "将一把带有SE的拔刀置于刀挂台上，手持一个没有SE的耀魂结晶左键，就会按照拔刀所带有的SE顺序进行复制SE的尝试：$()$(br)如果该SE$(c)不可被复制$()，则跳过该SE；$()$(br)如果该SE$(c)可被复制$()，则消耗手中的耀魂结晶，掉落一个带有该SE的耀魂结晶；$()$(br)如果该SE$(c)可被移除$()，则将其移除。$()$(br)最终所表现出来的就是复制/取下了该拔刀的SE。$()$(br)对于有多个SE的拔刀，会按照顺序尝试复制/取下——这意味着第一个$(c)可被复制且不可被移除$()的SE将会是这把刀$(c)唯一一个$()可被复制的SE。$()$(br)获得带有SE的耀魂结晶后，手持它左键刀挂台上的刀即可将SE转移至这把刀上。$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_trapezohedron",
+      "item": "slashblade:proudsoul_trapezohedron",
+      "text": "$(item)耀偏方三八面魂$()是耀魂材料之一。作为耀魂材料中最贵重的材料，其用途只有两个——用于刀挂台附魔时$(c)必定成功$()，与$(c)无上限$()强化拔刀。$()"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "slashblade:material/trapezohedron_blasting"
+    }
+  ],
+  "sortnum": 0
+}

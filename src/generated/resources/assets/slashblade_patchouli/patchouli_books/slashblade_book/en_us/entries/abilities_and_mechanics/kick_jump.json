@@ -1,0 +1,20 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:slime_block",
+  "name": "Kick Jump",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Kick Jump$() (also known as wall jump) is a special aerial maneuver that allows you to perform a second jump by kicking off a wall while in the air.$()$(br2)$(thing)Core functions$():$()$(li)$(thing)Kick off walls to jump again$(), enhancing aerial mobility;$()$(li)Has a $(thing)cancel$() (Jump Cancel, JC) effect, which can interrupt current Sword Arts for advanced combos.$()$(br2)$(thing)Trigger conditions$():$()$(li)Player is $(thing)not on the ground$() (in the air);$()$(li)Press $(k:jump) while $(thing)not holding the jump key$() (usually the first press);$()$(li)Player is $(thing)not in Kick Jump cooldown$();$()$(li)Player's side is $(thing)near a block$() (within detection range).$()$(br2)Meeting all conditions triggers Kick Jump and grants advancement $(thing)【Abilities - Kick Jump】$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trigger effects$(): Upon successful activation, the following effects occur in order:$()$(li)Grants $(thing)0.5 seconds$() of $(thing)invincibility$() (Untouchable);$()$(li)Enters $(thing)0.1 seconds$() of Kick Jump cooldown;$()$(li)Resets vertical fall speed to $(thing)0.8 blocks/second$() (equivalent to a new jump);$()$(li)Resets current Sword Art of the held Slash Blade to $(thing)none$() (achieving the 'cancel' effect).$()$(thing)Cancel (JC) mechanism explained$():$()$(br)Kick Jump forcibly interrupts any ongoing Sword Art, resetting it to no Sword Art state. This allows you to quickly chain other Sword Arts or actions in combos, a key technique for complex combos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Detection range explanation$():$()$(br)The 'near a block' detection range is based on the player's hitbox, extended in all directions:$()$(li)In $(thing)±X direction$() (left/right): extends $(thing)0.5 blocks$() each;$()$(li)In $(thing)±Z direction$() (front/back): extends $(thing)1 block$() each.$()$(br2)This means you don't need to be right against the wall; you can trigger it within a certain distance.$()$(br2)$(thing)Practical techniques$():$()$(li)Used to $(thing)extend air time$(), dodge ground attacks, or adjust position;$()$(li)Using the $(thing)cancel effect$(), you can immediately follow up with other actions after Sword Arts recovery, keeping combos fluid;$()$(li)Very short cooldown allows $(thing)repeated use$() for multiple aerial movements.$()$(br2)$(o)Tip: Kick Jump is a recreation of the classic Devil May Cry move. Mastering it greatly enhances combat spectacle and operability.$()"
+    }
+  ],
+  "sortnum": 0
+}

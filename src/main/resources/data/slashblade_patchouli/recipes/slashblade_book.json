@@ -1,0 +1,12 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "book": "slashblade_patchouli:slashblade_book"
+}

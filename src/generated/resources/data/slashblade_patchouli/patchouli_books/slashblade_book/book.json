@@ -1,0 +1,10 @@
+{
+  "creative_tab": "slashblade:slashblade",
+  "landing_text": "patchouli.slashblade_patchouli.book.landing",
+  "model": "slashblade_patchouli:book_slashblade",
+  "name": "patchouli.slashblade_patchouli.book.name",
+  "show_progress": true,
+  "subtitle": "patchouli.slashblade_patchouli.book.subtitle",
+  "use_resource_pack": true,
+  "version": "3"
+}

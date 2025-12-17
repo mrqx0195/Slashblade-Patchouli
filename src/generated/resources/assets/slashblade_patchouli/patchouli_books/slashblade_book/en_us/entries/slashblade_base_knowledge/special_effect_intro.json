@@ -1,0 +1,17 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:proudsoul_crystal",
+  "name": "Knowledge of SE (Special Effect)",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Special Effect, abbreviated as SE, is a passive skill possessed by Slash Blades.$()$(br)Different SEs have different effects, and multiple SEs can coexist in one blade.$()$(br)Some SEs can be copied or removed, while others cannot.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "slashblade:proudsoul_crystal",
+      "text": "Using $(item)Proud Soul Crystal$(), you can copy, remove, and add SEs to Slash Blades. For specific methods, refer to the $(l:slashblade_base_knowledge/proudsoul_intro)'Knowledge of Proud Souls'$() section.$()"
+    }
+  ],
+  "sortnum": 0
+}

@@ -1,0 +1,20 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:rabbit_foot",
+  "name": "Enemy Step",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Enemy Step$() (also known as enemy jump) is an aerial maneuver that uses creatures as stepping stones, allowing you to perform a second jump when near a creature in the air.$()$(br2)$(thing)Core functions$():$()$(li)$(thing)Use enemies as stepping stones for a double jump$(), greatly enhancing aerial mobility;$()$(li)Has a $(thing)cancel$() (Jump Cancel, JC) effect, which can interrupt current Sword Arts for advanced combos.$()$(br2)$(thing)Trigger conditions$():$()$(li)Player is $(thing)not on the ground$() (in the air);$()$(li)Press $(k:jump) while $(thing)not holding the jump key$() (usually the first press);$()$(li)Player is $(thing)not in Kick Jump cooldown$();$()$(li)Player is $(thing)near a creature$() (within detection range).$()$(br2)Meeting all conditions triggers Enemy Step and grants advancement $(thing)【Abilities - Enemy Step】$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trigger effects$(): Upon successful activation, the following effects occur in order:$()$(li)Grants $(thing)0.5 seconds$() of $(thing)invincibility$() (Untouchable);$()$(li)Resets vertical fall speed to $(thing)0.5 blocks/second$() (equivalent to a low-height jump);$()$(li)Resets current Sword Art of the held Slash Blade to $(thing)none$() (achieving the 'cancel' effect).$()$(thing)Cancel (JC) mechanism explained$():$()$(br)Same as Kick Jump, Enemy Step forcibly interrupts any ongoing Sword Art, resetting it to no Sword Art state. This allows you to quickly chain other Sword Arts or actions in combos, a key technique for complex combos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Detection range explanation$():$()$(br)The 'near a creature' detection range is based on the player's hitbox, extended in all directions:$()$(li)In $(thing)±X direction$() (left/right): extends $(thing)1 block$() each;$()$(li)In $(thing)±Y direction$() (up/down): extends $(thing)1 block$() each;$()$(li)In $(thing)±Z direction$() (front/back): extends $(thing)1 block$() each.$()$(br2)This means you don't need to be right against the creature; you can trigger it within a certain distance.$()$(br2)$(thing)Practical techniques$():$()$(li)Use creatures as $(thing)aerial pivots$() for multiple jumps, covering greater distances;$()$(li)Combine with Kick Jump for $(thing)continuous aerial maneuvers$(), achieving complex aerial combos;$()$(li)In Boss fights, use Enemy Step to $(thing)prolong air time$(), dodge ground skills and maintain output.$()$(br2)$(o)Tip: Enemy Step is a recreation of the classic Devil May Cry move. Mastering it greatly enhances combat mobility and combo potential.$()"
+    }
+  ],
+  "sortnum": 0
+}

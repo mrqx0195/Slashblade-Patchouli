@@ -1,0 +1,81 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:proudsoul",
+  "name": "Knowledge of Proud Souls",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Proud Souls are the crystallization of blades, the souls absorbed by Slash Blades after slaying enemies.$()$(br2)Proud Souls can also be seen as a form of energy stored in Slash Blades. This energy can be used to release Summoned Swords or $(l:slashblade_base_knowledge/special_attack_intro)SA$() for higher-level combat.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Proud Soul Value$() represents the number of Proud Souls accumulated in the blade. When the Proud Soul Value reaches $(thing)10000$(), the Slash Blade gains the $(thing)Soul Eater$() trait - when killing creatures, it repairs the durability of the held Slash Blade based on the amount of experience dropped.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_tiny",
+      "item": "slashblade:proudsoul_tiny",
+      "text": "$(item)Tiny Proud Soul$() is the smallest item form of Proud Souls. When used as strengthening material, it can strengthen a blade up to level 10, with each strengthening providing 100 Proud Soul Value. When used for Blade Stand enchanting, it has only a 25% success rate.$()$(br)When a Slash Blade breaks, a piece of the blade breaks off and flies forward (specific appearance depends on the blade's model). Before landing, it $(thing)glows$() with a white particle trail. After landing, it sticks in the ground emitting purple particles, and can be picked up as a Tiny Proud Soul.$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "slashblade:material/tiny",
+      "text": "Based on the blade's $(thing)Proud Soul Value$() at break, you can obtain 1~10 $(item)Tiny Proud Souls$(). If the blade is enchanted, you can additionally obtain 1~10 $(thing)enchanted$() Tiny Proud Souls. Of course, the Proud Soul Value will decrease accordingly.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul",
+      "item": "slashblade:proudsoul",
+      "text": "$(item)Proud Soul$() is one of the Proud Soul materials. When used as strengthening material, it can strengthen a blade up to level 50, with each strengthening providing 500 Proud Soul Value. When used for Blade Stand enchanting, it has a 50% success rate.$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "slashblade:material/soul",
+      "text": "If $(thing)enchanted$() $(item)Tiny Proud Souls$() are used in crafting, the resulting Proud Soul will inherit all enchantments from them (same enchantments take the level from the last Tiny Proud Soul in the crafting grid). Subsequent Proud Soul materials follow the same principle.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_ingot",
+      "item": "slashblade:proudsoul_ingot",
+      "text": "$(item)Proud Soul Ingot$() is one of the Proud Soul materials. When used as strengthening material, it can strengthen a blade up to level 100, with each strengthening providing 1000 Proud Soul Value. When used for Blade Stand enchanting, it has a 75% success rate.$()$(br)Additionally, it has another use: $(thing)copying a blade's $(l:slashblade_base_knowledge/special_attack_intro)SA$().$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "slashblade:material/ingot",
+      "text": "Place an enchanted blade on the Blade Stand, left-click it with an enchanted Proud Soul Ingot, then the following checks occur:$()$(br)If the blade $(c)does not$() have an SA, it $(c)will not$() copy;$()$(br)For each enchantment on the Proud Soul Ingot: if the blade has the $(c)same enchantment$(), and the blade's enchantment level is $(c)not less than the maximum level$() of that enchantment, copying occurs.$()$(br)After copying, you obtain a $(item)Proud Soul Sphere$() with the blade's SA, and the Proud Soul Ingot is consumed.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_sphere",
+      "item": "slashblade:proudsoul_sphere",
+      "text": "$(item)Proud Soul Sphere$() is one of the Proud Soul materials. When used as strengthening material, it can strengthen a blade up to level 150, with each strengthening providing 1500 Proud Soul Value. When used for Blade Stand enchanting, it has a 100% success rate.$()$(br)Additionally, it has another use: $(thing)changing a blade's $(l:slashblade_base_knowledge/special_attack_intro)SA$().$()"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "slashblade:material/sphere_smelting",
+      "text": "Place a blade on the Blade Stand, left-click it with a Proud Soul Sphere containing an SA to transfer the SA to the blade.$()$(br)The blade's original SA will $(c)be overwritten$(), and the Proud Soul Sphere will $(c)be consumed$().$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_crystal",
+      "item": "slashblade:proudsoul_crystal",
+      "text": "$(item)Proud Soul Crystal$() is one of the Proud Soul materials. When used as strengthening material, it can strengthen a blade up to level 200, with each strengthening providing 2000 Proud Soul Value. When used for Blade Stand enchanting, it has a 100% success rate.$()$(br)Additionally, it has two other uses: $(thing)copying/removing a blade's $(l:slashblade_base_knowledge/special_effect_intro)SE$()$(), and $(thing)adding SE to a blade$().$()"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "slashblade:material/crystal_blasting",
+      "text": "Place a blade with SE on the Blade Stand, left-click it with a Proud Soul Crystal without SE, and it will attempt to copy SEs in order:$()$(br)If the SE $(c)cannot be copied$(), skip it;$()$(br)If the SE $(c)can be copied$(), consume the Proud Soul Crystal and drop a Proud Soul Crystal with that SE;$()$(br)If the SE $(c)can be removed$(), remove it.$()$(br)The result is copying/removing the blade's SE.$()$(br)For blades with multiple SEs, it attempts in order—meaning the first $(c)copyable and non-removable$() SE will be the $(c)only one$() that can be copied.$()$(br)After obtaining a Proud Soul Crystal with SE, left-click a blade on the Blade Stand to transfer the SE to it.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "proudsoul_trapezohedron",
+      "item": "slashblade:proudsoul_trapezohedron",
+      "text": "$(item)Proud Soul Trapezohedron$() is one of the Proud Soul materials. As the most precious material, it has only two uses—when used for Blade Stand enchanting, it $(c)guarantees success$(), and it can strengthen blades $(c)without limit$().$()"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "slashblade:material/trapezohedron_blasting"
+    }
+  ],
+  "sortnum": 0
+}

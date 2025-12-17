@@ -1,0 +1,20 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:shield",
+  "name": "Guard / Just Guard",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Guard$() and $(thing)Just Guard$() are core defensive techniques of Slash Blades, allowing you to block or parry enemy attacks while holding a Slash Blade.$()$(br2)$(thing)Guard$()：$(li)Used to $(thing)block projectiles$() (like arrows, fireballs);$()$(li)Activated by holding $(k:sneak);$()$(li)Successful Guard consumes 1 durability (except when rank is S or above).$()$(br2)$(thing)Just Guard$()：$(li)Used to $(thing)instantly parry attacks$() (including melee);$()$(li)Activated by pressing $(k:sneak) $(thing)just before$() an attack lands;$()$(li)Successful Just Guard $(thing)does not consume durability$(), increases rank, and automatically counterattacks.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To activate Guard or Just Guard, all the following conditions must be met:$()$(li)Holding an $(thing)undamaged$() Slash Blade with $(thing)Thorns$() enchantment;$()$(li)Standing on $(thing)ground$();$()$(li)Holding $(k:sneak) $(thing)and not holding any directional keys$().$()$(br2)$(thing)Additional requirements for Just Guard$():$()$(li)When the attack lands, you are $(thing)not$() using 'Trick' type skills;$()$(li)Your facing direction $(thing)must not directly face$() the attack source (should face sideways or away).$()$(br2)$(thing)Advanced techniques$():$()$(li)When battle rank reaches $(thing)S or above$(), successful Guard also $(thing)does not consume durability$();$()$(li)'$(thing)Soul Speed$()' enchantment $(thing)extends the Just Guard timing window$(), making it easier to succeed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Success effects$():$()$(li)$(thing)Blocking projectiles$(): Performs a sheath animation, blocking the projectile;$()$(li)$(thing)Successful Just Guard$(): Automatically swings forward in counterattack, knocking back melee enemies, and $(thing)does not consume durability$().$()$(br2)$(thing)Failure cases$() (cannot trigger):$()$(li)Receiving unblockable damage (like suffocation, fall damage, most explosions and magic damage);$()$(li)Pressing sneak too early (only counts as Guard, ineffective against non-projectiles);$()$(li)Attempting to defend while using $(thing)Sword Arts$().$()$(br2)$(thing)Practical advice$():$()$(li)For monsters with wind-up attacks, practicing 'Just Guard' is very rewarding;$()$(li)For fast-attacking monsters, $(thing)dodging is more reliable than Just Guard$();$()$(li)Note: Many Bosses use area damage, terrain damage, or other non-standard attacks, where Just Guard mechanics are $(thing)limited in applicability$()."
+    }
+  ],
+  "sortnum": 0
+}

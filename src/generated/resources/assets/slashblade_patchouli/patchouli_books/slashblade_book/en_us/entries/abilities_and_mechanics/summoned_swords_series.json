@@ -1,0 +1,36 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:diamond_sword",
+  "name": "Summoned Swords Series",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Summoned Swords Series$() are ranged attack methods of Slash Blades, consuming $(thing)Proud Soul Value$() to summon and control Summoned Swords for attacks.$()$(br2)$(thing)Basic Summoned Sword$(): Consumes 2 Proud Soul, fires one Summoned Sword at target.$()$(br)$(thing)Spiral Swords$(): Consumes 20 Proud Soul, forms a defensive sword circle around self.$()$(br)$(thing)Storm Swords$(): Consumes 20 Proud Soul, surrounds target with Summoned Swords.$()$(br)$(thing)Blistering Swords$(): Consumes 20 Proud Soul, unfolds two rows of Summoned Swords for rapid strikes.$()$(br)$(thing)Heavy Rain Swords$(): Consumes 20 Proud Soul, summons大量 falling swords above target.$()$(br2)All Summoned Swords damage is based on the Slash Blade's $(thing)Power enchantment level$().$()$(br2)$(o)Note: Except for Basic Summoned Sword, using other Shooting Arts also triggers one Basic Summoned Sword, so actual consumption is higher!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Common mechanisms$():$()$(br)$(li)All Summoned Swords damage is based on the Slash Blade's $(thing)Power enchantment level$();$()$(li)Except Basic Summoned Sword, other Shooting Arts cost $(thing)20 Proud Soul$() (default);$()$(li)Using advanced Shooting Arts $(thing)also triggers one Basic Summoned Sword$(), consuming extra Proud Soul.$()$(br2)$(thing)Rank influence$():$()$(br)$(li)Spiral/Storm/Blistering Swords: Generate $(thing)8 swords$() at rank ≥S, otherwise $(thing)6 swords$();$()$(li)Heavy Rain Swords: Number increases with rank, from $(thing)19 swords$() (no rank/D) to $(thing)31 swords$() (SSS).$()$(br2)$(thing)Combat techniques$():$()$(br)$(li)Basic Summoned Sword is for $(thing)ranged harassment$() and triggering other effects;$()$(li)Spiral Swords is suitable for $(thing)defending against close enemies$() or clearing mobs;$()$(li)Storm Swords is used to $(thing)control and focus fire on a single target$();$()$(li)Blistering Swords is good for $(thing)rapid burst damage$();$()$(li)Heavy Rain Swords is extremely effective against $(thing)large targets or groups$().$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Basic Summoned Sword$()$()$(br2)$(thing)Cost$(): $(thing)2 points$() Proud Soul (default).$()$(br)$(thing)Keys$(): $(k:slashblade.summon_blade)$()$(br2)$(thing)Trigger conditions$():$()$(li)Holding an undamaged, non-Sealed Slash Blade with $(thing)Power$() enchantment;$()$(li)Summon key was not held previously, currently pressing summon key.$()$(br2)$(thing)Effects$():$()$(li)Fires one Summoned Sword at $(thing)locked target$() or $(thing)within 40 blocks ahead$();$()$(li)Damage equals Power enchantment level;$()$(li)Alternates left/right generation (odd count left, even count right).$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Spiral Swords$()$()$(br2)$(thing)Cost$(): $(thing)20 points$() Proud Soul (default).$()$(br)$(thing)Keys$(): $(thing)Hold$() $(k:slashblade.summon_blade) for at least 0.5 seconds$()$(br)$(thing)Additional condition$(): $(thing)Cannot move$() while holding (no directional keys pressed).$()$(br2)$(thing)Effects$():$()$(li)Generates $(thing)6/8$() (8 if rank ≥S) rotating Summoned Swords around self;$()$(li)Swords in the circle damage approaching enemies;$()$(li)Holding summon key again fires all Summoned Swords.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Storm Swords$()$()$(br2)$(thing)Cost$(): $(thing)20 points$() Proud Soul (default).$()$(br)$(thing)Keys$(): $(k:sneak) + $(k:back) + $(thing)hold$() $(k:slashblade.summon_blade) for at least 0.5 seconds$()$(br)$(thing)Additional condition$(): Requires a $(thing)locked target$().$()$(br2)$(thing)Effects$():$()$(li)Generates $(thing)6/8$() (8 if rank ≥S) rotating Summoned Swords around target;$()$(li)After 1 second, swords stop rotating and shoot at target together;$()$(li)Has $(thing)knockback$() effect.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Blistering Swords$()$()$(br2)$(thing)Cost$(): $(thing)20 points$() Proud Soul (default).$()$(br)$(thing)Keys$(): $(k:sneak) + $(k:forward) + $(thing)hold$() $(k:slashblade.summon_blade) for at least 0.5 seconds then release$()$(br)$(thing)Additional condition$(): $(thing)Not pressed back key$() in the last 1 second.$()$(br2)$(thing)Effects$():$()$(li)Unfolds $(thing)6$() (8 if rank ≥S) Summoned Swords on both sides of body;$()$(li)While holding summon key, maintains unfolded state; $(thing)upon release, shoots at target sequentially$();$()$(li)If no locked target, shoots within 40 blocks ahead.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Heavy Rain Swords$()$()$(br2)$(thing)Cost$(): $(thing)20 points$() Proud Soul (default).$()$(br)$(thing)Keys$(): $(k:sneak) + $(k:back) → $(k:forward) + $(thing)hold$() $(k:slashblade.summon_blade) for at least 0.5 seconds then release$()$(br)$(thing)Additional condition$(): Pressed $(thing)back key$() within last 1.5 seconds.$()$(br2)$(thing)Effects$():$()$(li)Generates $(thing)19-31$() (increases with rank) Summoned Swords 7 blocks above target/self;$()$(li)Swords randomly offset in X, Z directions (at least 1 directly above);$()$(li)While holding summon key, hovers; $(thing)upon release, falls vertically sequentially$().$()"
+    }
+  ],
+  "sortnum": 0
+}

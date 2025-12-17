@@ -1,0 +1,26 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:slashblade",
+  "name": "在一切开始之前……",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "重锋，即重新磨砺刀刃。$()$(br)再怎么黄金的时代，也终究是会过去的。而名为拔刀剑的武器，也逐渐埋没在历史的尘埃之下……$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "slashblade:slashblade",
+      "text": "所幸，某位刀匠将拔刀剑的技艺传承了下来，并将其带到了新时代。我们一般尊称他为$(l:https://www.mcmod.cn/class/966.html)“最后的太刀匠人”$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "纵然，这个世界发生了诸多改变，从旧时代来的一些剑客也在抗拒新的改变。但，无数新生的刀匠接过了这项技艺。$()$(br)身为新生的刀匠之一，我无法评价这次变革的好坏，但我能够隐约意识到，变革是必要的……至于变革中我们做的如何，就交给后人来评价吧。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "——mrqx0195$()"
+    }
+  ],
+  "priority": true,
+  "sortnum": 0
+}

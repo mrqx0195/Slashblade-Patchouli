@@ -1,0 +1,32 @@
+{
+  "category": "slashblade_patchouli:blade_arts",
+  "icon": "minecraft:netherite_sword",
+  "name": "Special Arts - Uppercut & Downward Slash",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Vertical Specialized Arts$() are used to handle enemies at different heights and feature unique fall protection mechanics.$()$(br2)$(thing)Upper Slash$(): Powerful uppercut that launches enemies.$()$(br)$(thing)Jumping Slash$(): Pursuit technique after Upper Slash, high jump upward.$()$(br)$(thing)Aerial Cleave$(): Quick downward slash in mid-air, dealing area damage.$()$(br2)$(thing)Fall Protection Mechanic$(): Using these aerial arts will $(thing)clear accumulated fall distance$(), preventing fall damage.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Upper Slash$()$()$(br2)$(thing)Trigger$(): On ground, press $(k:sneak) + $(k:back) + $(k:attack)$()$(br2)$(thing)Features$():$()$(li)Powerful uppercut that $(thing)launches enemies upward$().$()$(li)Can follow up with $(thing)Jumping Slash$() upon hitting.$()$(li)Causes $(thing)stun$() effect, strong crowd control.$()$(br2)$(o)Tip: Upper Slash launches enemies very high, facilitating subsequent aerial pursuit.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Jumping Slash$()$()$(br2)$(thing)Trigger Conditions$():$()$(li)After using $(thing)Upper Slash$(), keep holding $(k:attack)$().$()$(br2)$(thing)Features$():$()$(li)Makes you $(thing)jump high upward$().$()$(li)Significant jump height, can pursue enemies launched by Upper Slash.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Aerial Cleave$()$()$(br2)$(thing)Trigger$(): In mid-air, press $(k:sneak) + $(k:back) + $(k:attack)$()$(br2)$(thing)Features$():$()$(li)Quick downward slash in mid-air, dealing $(thing)area damage$() upon landing.$()$(li)Continuously attacks enemies below during descent.$()$(li)Landing has $(thing)meteor$() knockback effect, extremely large area.$()$(li)Generates大量 landing particle effects.$()$(li)$(thing)Clears accumulated fall distance$(), preventing fall damage.$()$(br2)$(o)Core Mechanic: Aerial Cleave not only attacks enemies but also $(thing)resets fall distance$(), making it a key skill for safe landing from heights!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Vertical Attack Techniques$():$()$(br)$(li)Upper Slash is suitable for $(thing)flying enemies$(), $(thing)mounted enemies$(), or $(thing)tall boss weak points$().$()$(li)Jumping Slash allows $(thing)quick height adjustment$() after Upper Slash for three-dimensional pursuit.$()$(li)Aerial Cleave is an excellent $(thing)fast landing method$(), combining attack and safety functions.$()$(li)Combo usage: $(thing)Upper Slash→Jumping Slash→Aerial Cleave$() forms a complete vertical combo.$()$(br2)$(thing)Fall Protection Applications$():$()$(br)$(li)When falling from heights, use $(thing)Aerial Cleave$() or any $(thing)aerial combo$() to land safely.$()$(li)In complex terrain, use vertical arts for $(thing)height adjustment$() and $(thing)safe movement$().$()$(li)Be mindful of Jumping Slash's $(thing)upward height$() to avoid hitting ceilings or obstacles.$()$(br2)$(o)Safety Tip: Be especially careful about the environment when using these skills in confined spaces.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)General Sword Art Techniques$():$()$(br)$(li)All sword arts can be canceled with $(thing)Kick Jump$(), $(thing)Enemy Step$(), or $(thing)Trick$() to reduce recovery time.$()$(li)Sword art damage is affected by $(thing)Power enchantment$() and $(thing)battle rank$().$()$(li)At high ranks, sword arts' $(thing)attack range$() and $(thing)visual effects$() are enhanced.$()$(li)Mastering sword art cancellation is fundamental to $(thing)advanced combos$().$()$(br2)$(thing)Fall Protection Mechanic Explained$():$()$(br)$(li)When using any $(thing)aerial combo$() or $(thing)Aerial Cleave$(), the game $(thing)resets fall distance calculation$().$()$(li)This means even if you jump from extreme heights, as long as you use these skills before landing, you won't take fall damage.$()$(li)This is an important $(thing)survival mechanic$() and $(thing)movement technique$() for Slash Blades.$()$(br2)$(o)Tip: The core of Slash Blade combat is fluid combos, use creativity to develop your own fighting style!$()"
+    }
+  ],
+  "sortnum": 1
+}

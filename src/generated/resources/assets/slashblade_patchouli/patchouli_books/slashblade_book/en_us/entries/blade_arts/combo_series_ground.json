@@ -1,0 +1,32 @@
+{
+  "category": "slashblade_patchouli:blade_arts",
+  "icon": "minecraft:diamond_sword",
+  "name": "Ground Combos",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Combo Series$() are the basic attack combinations of Slash Blades, triggered by continuously pressing the attack button while on the ground.$()$(br2)$(thing)Combo A$(): The most basic 4-hit combo, fast attack speed, suitable for quickly clearing mobs.$()$(br)$(thing)Combo B$(): Fast multi-hit combo, can be continued after a pause, high total damage.$()$(br)$(thing)Combo C$(): Powerful two-hit finisher, large attack range.$()$(br)$(thing)Combo A EX$(): Enhanced combo with 5 attacks when under $(thing)Powered$() effects.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Combo A$()$()$(br2)$(thing)Trigger$(): Press $(k:attack) 4 times consecutively on the ground.$()$(br2)$(thing)Features$():$()$(li)Fast attack speed, small recovery time.$()$(li)1st and 2nd hits are horizontal slashes, 3rd is a diagonal slash, 4th is a spinning slash.$()$(li)The 4th hit has a larger attack range and can knock back surrounding enemies.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Combo B$()$()$(br2)$(thing)Trigger$(): Press $(k:attack) 3 times on the ground, $(thing)pause$() then continue pressing $(k:attack).$()$(br2)$(thing)Features$():$()$(li)Rapid multi-hit slashes with extremely high attack frequency.$()$(li)Can be looped continuously, suitable for sustained damage on single targets.$()$(li)Complete execution can trigger $(thing)Maximum extension of Combo B$(), dealing powerful finishing attacks.$()$(br2)$(o)Tip: The timing of Combo B's pause is key, practice to master it.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Combo C$()$()$(br2)$(thing)Trigger$(): After $(thing)Combo A$() 2nd hit, $(thing)pause$(), then press $(k:attack).$()$(br2)$(thing)Features$():$()$(li)Powerful two-hit finisher with high damage.$()$(li)Plays quick sheath sound effect.$()$(br2)$(thing)Combo Example$():$(br)$(o)Attack-Attack-Pause-Attack$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Combo A EX$()$()$(br2)$(thing)Trigger Conditions$():$()$(li)Under $(thing)Strength$() or $(thing)Hunger$() effects.$()$(li)Press $(k:attack) 5 times consecutively on the ground.$()$(br2)$(thing)Features$():$()$(li)Enhanced 5-hit combo with significantly improved damage and range.$()$(li)4th hit is a spinning area attack, 5th hit is a powerful finishing slash.$()$(li)Visually impressive, extremely high attack power.$()$(br2)$(o)Tip: This is an enhanced version of Combo A, requiring specific conditions to trigger.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Ground Combo Techniques$():$()$(br)$(li)Combo B's pause timing can be judged by sound or animation.$()$(li)Use $(thing)Powered$() effects to trigger Combo A EX, extremely effective against bosses.$()$(li)During combos, use $(thing)Trick$() or $(thing)Kick Jump$() to cancel recovery time, maintaining mobility.$()$(br2)$(o)Tip: Mastering ground combos is fundamental to Slash Blade combat, practice in safe areas.$()"
+    }
+  ],
+  "sortnum": 0
+}

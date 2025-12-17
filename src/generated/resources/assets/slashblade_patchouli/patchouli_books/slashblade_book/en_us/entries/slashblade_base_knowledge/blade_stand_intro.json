@@ -1,0 +1,16 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "slashblade:bladestand_1",
+  "name": "Blade Stand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Blade Stand is a tool for displaying Slash Blades and can be placed like a block.$()$(br)$(thing)Standing$() Blade Stands can only be placed on the $(c)top$() of blocks, while $(thing)hanging$() Blade Stands can only be placed on the $(c)side$() of blocks.$()$(br)Once placed, the Blade Stand is an entity (similar to an $(item)Armor Stand$()). Hold a Slash Blade and $(k:use) on it to place the blade on the stand.$()$(br)The Blade Stand is one of the core items of this mod, used for various enhancements of Slash Blades—including Proud Soul Enchanting, $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_ingot)copying SA$(), $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_sphere)changing SA$(), and $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_crystal)copying/changing SE$().$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To perform Proud Soul Enchanting, simply place the Slash Blade to be enchanted on any Blade Stand, hold an enchanted $(l:slashblade_base_knowledge/proudsoul_intro)Proud Soul material$() and press $(k:attack) on it.$()$(br)Enchanting success probabilities for different materials: $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_tiny)Tiny Proud Soul$(): 25%; $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul)Proud Soul$(): 50%; $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_ingot)Proud Soul Ingot$(): 75%; $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_sphere)Proud Soul Sphere$() / $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_crystal)Proud Soul Crystal$() / $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_trapezohedron)Proud Soul Trapezohedron$(): 100%.$()$(br)For other unmentioned Proud Soul materials (usually added by addons), the probability is also typically 100%.$()$(br)Note that Proud Soul Enchanting has the lowest priority. If the action satisfies one of copying SA, changing SA, or copying/changing SE, those operations will take priority, and Proud Soul Enchanting will not be triggered.$()"
+    }
+  ],
+  "sortnum": 0
+}

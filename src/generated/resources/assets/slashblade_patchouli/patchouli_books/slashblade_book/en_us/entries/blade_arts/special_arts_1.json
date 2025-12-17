@@ -1,0 +1,24 @@
+{
+  "category": "slashblade_patchouli:blade_arts",
+  "icon": "minecraft:golden_sword",
+  "name": "Special Arts - Rush & Pursuit",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Special Arts$() are advanced techniques triggered by specific key combinations, offering unique effects and combat value.$()$(br2)$(thing)Rapid Slash$(): Quickly rush forward and slash enemies ahead.$()$(br)$(thing)Rising Star$(): Pursuit technique after hitting with Rapid Slash, spinning upward attack.$()$(br2)These skills typically require $(thing)direction key + sneak + attack$() combinations.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Rapid Slash$()$()$(br2)$(thing)Trigger$(): On ground, press $(k:sneak) + $(k:forward) + $(k:attack)$()$(br2)$(thing)Features$():$()$(li)Quickly dash forward, performing multi-hit slashes on enemies along the path.$()$(li)Can follow up with $(thing)Rising Star$() upon hitting enemies.$()$(li)Under $(thing)Strength/Hunger$() effects, starts with a quick sheath animation.$()$(br2)$(o)Tip: Dash distance is affected by movement speed, ensure there's enough space ahead before using.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Rising Star$()$()$(br2)$(thing)Trigger Conditions$():$()$(li)After $(thing)Rapid Slash hits an enemy$().$()$(li)Hold $(k:attack)$() until hitting an enemy.$()$(br2)$(thing)Features$():$()$(li)Spinning upward attack that $(thing)throws enemies into the air$().$()$(li)You also ascend, enabling aerial pursuit.$()$(li)Visually impressive, high damage.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Rush & Pursuit Techniques$():$()$(br)$(li)Rapid Slash can be used to $(thing)quickly approach ranged enemies$() or $(thing)avoid area attacks$().$()$(li)Rising Star is an excellent $(thing)opening move$() that can launch enemies for aerial combos.$()$(li)Combo usage: $(thing)Rapid Slash→Rising Star→Aerial Combos$() forms a complete combo chain.$()$(li)Be aware of Rapid Slash's $(thing)dash distance$() to avoid rushing into dangerous areas.$()$(br2)$(o)Tip: These skills require precise timing, practice in actual combat.$()"
+    }
+  ],
+  "sortnum": 1
+}

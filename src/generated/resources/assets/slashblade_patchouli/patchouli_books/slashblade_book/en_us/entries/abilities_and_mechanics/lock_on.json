@@ -1,0 +1,32 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:ender_eye",
+  "name": "Lock On",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Lock On$() is an ability of Slash Blades that allows you to concentrate attacks and certain skills on a single target.$()$(br2)$(thing)Basic operation$():$()$(br)$(li)$(thing)Press sneak$() to start locking;$()$(li)Release sneak to $(thing)clear current locked target$().$()$(br2)$(thing)Functions$():$()$(br)$(li)Concentrate attacks on $(thing)the same target$();$()$(li)Track target position in real-time;$()$(li)Prerequisite for abilities like $(thing)Air Trick, Storm Swords$().$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Lock On detection$():$()$(br)When you press sneak, the system searches for targets in this order:$()$(br2)$(li)First, from player's eye position, extend up to $(thing)40 blocks$() in $(thing)sight direction$(), detecting all creatures in the ray (creature hitboxes extended by 0.5 blocks);$()$(li)If none found, detect all creatures in the $(thing)surrounding area$().$()$(br2)Then filter each found creature; those meeting any of the following conditions are excluded:$()$(li)Players and PvP not enabled;$()$(li)Armor stands with Marker tag not true;$()$(li)Non-hostile creatures and friendly creature locking not enabled;$()$(li)Carrying a player;$()$(li)Has tag $(thing)slashblade:blacklist/attackable$() (default includes villagers, little maids).$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Priority determination$():$()$(br)The following conditions increase a creature's lock priority:$()$(br)$(li)The creature is your $(thing)revenge target$();$()$(li)The creature is hostile and currently targeting you or an ally;$()$(li)The creature is under $(thing)Glowing$() effect;$()$(li)The creature $(thing)has a team$().$()$(br2)Finally, the $(thing)closest$()符合条件的 creature is selected as locked target.$()$(br2)$(thing)Revenge target requirement$():$()$(br)Target's last received attack was from player or ally (same team, tamed, etc.), or the target is hostile and currently targeting player or ally."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Surrounding area range$():$()$(br)Based on player's hitbox, extended in all directions:$()$(br)$(li)X direction (left/right): $(thing)±12 blocks$();$()$(li)Z direction (front/back): $(thing)±12 blocks$();$()$(li)Y direction (up/down): $(thing)±6 blocks$().$()$(br2)This is a large area, ensuring you can lock onto creatures out of sight but nearby.$()$(br2)$(thing)Tracking target$():$()$(br)When holding a Slash Blade, having a living locked target and holding sneak, the view smoothly $(thing)turns toward target direction$() to track moving enemies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Configuration influence$():$()$(br)$(li)$(thing)pvp_enable$(): Controls whether locking other players is allowed;$()$(li)$(thing)friendly_enable$(): Controls whether locking non-hostile creatures (like villagers, animals) is allowed.$()$(br)$(thing)Tag system$():$()$(br)Creatures with tag $(thing)slashblade:blacklist/attackable$() cannot be locked.$()$(br)(Default includes: $(thing)vanilla villagers$(), $(thing)Touhou Little Maid's little maids$())$()$(br2)$(thing)Did you know$():$()$(br)Lock detection only occurs on the $(thing)server side$(), so it won't lock targets that only exist client-side."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Practical applications$():$()$(br)$(li)Use Lock On to ensure $(thing)accurate hits with ranged skills$() (like Summoned Swords, Air Trick);$()$(li)In chaotic battles, lock onto key targets for优先集火;$()$(li)Increase specific target's lock priority via Glowing effect or team marking.$()$(br2)$(thing)Notes$():$()$(br)$(li)Locking requires $(thing)sneak key$() operation; be careful not to confuse with Guard/Just Guard;$()$(li)After locking a target, some abilities (like Air Trick) will $(thing)automatically track$() target position;$()$(li)Lock can be $(thing)cleared$() (release sneak) and needs re-locking.$()$(br2)$(o)Tip: Proficient use of Lock On is fundamental to mastering advanced Slash Blade techniques. Practice in safe environments.$()"
+    }
+  ],
+  "sortnum": 0
+}

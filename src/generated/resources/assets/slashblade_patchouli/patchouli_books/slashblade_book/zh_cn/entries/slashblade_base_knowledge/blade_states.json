@@ -1,0 +1,51 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "minecraft:enchanted_book",
+  "name": "刀的状态",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)刀的状态$()是拔刀剑的核心机制之一，决定了刀的属性、能力和成长阶段。$()$(br2)$(thing)基础状态$()：$()$(br)$(li)$(thing)封$()：未命名、无附魔的基础状态。$()$(li)$(thing)印$()：拥有附魔的状态。$()$(li)$(thing)妖$()：拥有附魔且已命名的状态。$()$(br2)$(thing)进阶状态$()：$()$(br)$(li)$(thing)Fiercer Edge$()：杀敌数≥1000时获得。$()$(li)$(thing)Soul Eater$()：耀魂数≥10000时获得。$()$(br)$(thing)异常状态$()：$()$(br)$(li)$(thing)Broken$()：耐久归零时的损坏状态。$()$(li)$(thing)Sealed$()：部分刀的基础封印状态。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "noname",
+      "text": "$(thing)基础状态 - 封$()$()$(br2)$(thing)获取条件$()：$()$(br)当拔刀剑不处于$(thing)Sealed$()、$(thing)印$()或$(thing)妖$()状态时，工具提示会显示为“封”。$()$(br2)$(thing)说明$()：$()$(br)这是拔刀剑最基础的初始状态，表示刀尚未被附魔或命名。$()$(br)在此状态下，刀只能使用最基本的攻击和连招。$()$(br2)$(o)注意：这个“封”状态与隐藏的$(thing)Sealed$()状态不同！$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "enchanted",
+      "text": "$(thing)基础状态 - 印$()$()$(br2)$(thing)获取条件$()：$()$(br)拔刀剑上存在$(thing)任意附魔$()时获得。$()$(br2)$(thing)效果$()：$()$(br)$(li)刀的$(thing)稀有度变为稀有$()（蓝色）。$()$(li)可以$(thing)使用$(l:slashblade_base_knowledge/special_attack_intro)SA$()$()。$()$(br2)$(thing)注意$()：$()$(br)包括$(thing)无铭刀「木偶」$()在内的一些拔刀剑无法获得此状态。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "bewitched",
+      "text": "$(thing)基础状态 - 妖$()$()$(br2)$(thing)获取条件$()：$()$(br)同时满足：$()$(br)$(li)拥有$(thing)任意附魔$()。$()$(li)通过$(thing)铁砧命名$()拥有自定义名称。$()$(br2)$(thing)效果$()：$()$(br)$(li)刀的$(thing)稀有度变为史诗$()（紫色）。$()$(li)工具提示中会$(thing)显示$(l:slashblade_base_knowledge/special_attack_intro)SA$()$()。$()$(li)允许释放$(l:slashblade_base_knowledge/special_attack_intro#super_slash_arts)超SA$()（需同时拥有$(thing)Fiercer Edge$()状态）。$()$(li)若配置允许，在物品栏中会$(thing)自动消耗饥饿值和经验值修复$()自身。$()$(br2)此状态会覆盖$(thing)印$()状态的显示。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "fiercer_edge",
+      "text": "$(thing)进阶状态 - Fiercer Edge$()$()$(br2)$(thing)获取条件$()：$()$(br)拔刀剑的$(thing)杀敌数≥1000$()。$()$(br2)$(thing)效果$()：$()$(br)$(li)允许释放$(l:slashblade_base_knowledge/special_attack_intro#super_slash_arts)超SA$()（需同时拥有$(thing)妖$()状态）。$()$(li)$(thing)锻造数$()对攻击伤害的影响更大。$()$(li)杀敌数显示为$(thing)深紫色$()（默认灰色）。$()$(br2)$(o)提示：这是刀成长的重要里程碑，解锁强力终结技。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "soul_eater",
+      "text": "$(thing)进阶状态 - Soul Eater$()$()$(br2)$(thing)获取条件$()：$()$(br)拔刀剑的$(thing)耀魂数≥10000$()。$()$(br2)$(thing)效果$()：$()$(br)$(li)击杀生物获得耀魂时，$(thing)自动修复耐久$()（修复量=获得耀魂数/4，至少1点）。$()$(li)耀魂数显示为$(thing)深紫色$()（默认灰色）。$()$(br2)$(o)提示：这是刀与灵魂深度共鸣的标志，极大提升续航能力。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "broken",
+      "text": "$(thing)异常状态 - Broken$()$()$(br2)$(thing)获取条件$()：$()$(br)刀的$(thing)耐久归零$()，且刀不会因此消失。$()$(br2)$(thing)效果$()：$()$(br)$(li)攻击伤害$(thing)大幅降低$()（通常无法造成伤害）。$()$(li)刀的外观$(thing)模型变化$()（显示为折断状态）。$()$(li)$(thing)无法使用$()：$(l:slashblade_base_knowledge/special_attack_intro)SA$()、超SA、所有射技、防御/格挡。$()$(br2)$(thing)修复方法$()：$()$(br)如果刀没有$(thing)Sealed$()状态，$(thing)修复至满耐久$()即可恢复。$()$(br2)$(o)警告：刀折断后战斗力几乎归零，请及时修复！$()"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sealed",
+      "text": "$(thing)异常状态 - Sealed$()$()$(br2)$(thing)获取条件$()：$()$(br)部分拔刀剑的$(thing)基础状态$()，如：$()$(br)$(li)锈刀（断）$()$()$(br)$(li)阎魔刀（断）$()$()$(br)$(thing)效果$()：$()$(br)$(li)所有状态$(thing)被隐藏$()（工具提示不显示）。$()$(li)$(thing)无法进入妖状态$()。$()$(li)$(thing)无法通过常规方式修复$()至未折断状态。$()$(li)$(thing)无法使用$()：特殊攻击（SA）、超SA、所有射技。$()$(br2)$(o)注意：这是刀的封印状态，需要特殊合成才能解除。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)状态关系与成长$()：$()$(br2)$(thing)基础成长路线$()：$()$(br)$(li)$(thing)封$() → $(thing)印$()（附魔） → $(thing)妖$()（命名）$()$(li)$(thing)妖$() + 杀敌数1000 → $(thing)Fiercer Edge$()$()$(li)$(thing)妖$() + 耀魂数10000 → $(thing)Soul Eater$()$()$(br2)$(thing)异常状态处理$()：$()$(br)$(li)$(thing)Broken$()：通过修复耐久恢复。$()$(li)$(thing)Sealed$()：通过特定合成解除封印。$()$(br2)$(thing)重要提示$()：$()$(br)$(li)$(thing)妖$()状态是解锁高级能力的前提。$()$(li)$(thing)Fiercer Edge$()和$(thing)Soul Eater$()可同时拥有。$()$(li)部分特殊拔刀剑（如无铭刀「木偶」）有$(thing)独特的状态规则$()。$()$(br2)$(o)提示：刀的成长是拔刀剑玩法的核心，悉心培养你的刀，它会变得越来越强大！$()"
+    }
+  ],
+  "sortnum": 0
+}

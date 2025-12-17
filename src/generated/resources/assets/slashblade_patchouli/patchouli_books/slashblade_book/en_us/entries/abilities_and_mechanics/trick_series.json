@@ -1,0 +1,41 @@
+{
+  "category": "slashblade_patchouli:abilities_and_mechanics",
+  "icon": "minecraft:ender_pearl",
+  "name": "Trick Series",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trick Series$() are key movement and evasion abilities of Slash Blades, allowing players to teleport instantly in different situations, greatly enhancing mobility.$()$(br2)$(thing)Trick Up$(): Teleport upward$()$(br)$(thing)Air Trick$(): Teleport to a locked enemy's head$()$(br)$(thing)Trick Down$(): Quickly land from the air$()$(br)$(thing)Trick Dodge$(): Short-distance teleport in any direction to evade$()$(br2)These abilities share some keys, and most have a $(thing)cancel$() (Cancel) effect that can interrupt Sword Arts recovery for advanced combos.$()$(br2)$(o)Tip: Most of these abilities grant 0.5 seconds of invincibility (Untouchable). Use them wisely to avoid significant damage.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Common characteristics and techniques$():$()$(li)Most Tricks grant $(thing)0.5 seconds invincibility$(). Use them to avoid critical damage;$()$(li)The cancel effect of Air Trick and Trick Dodge sets Sword Arts to $(thing)'standby' state$(), different from Kick Jump's $(thing)'none' state$(). In some checks, it's still considered as using Sword Arts;$()$(li)Trick Up and Air Trick $(thing)share keys$(), with Air Trick having priority;$()$(li)Trick Down and Trick Dodge trigger under their own conditions, $(thing)not conflicting$() with each other.$()$(br2)$(thing)Practical applications$():$()$(li)Use Air Trick to $(thing)quickly close in on ranged enemies$() or evade area skills;$()$(li)Use Trick Down for $(thing)quick landing to avoid aerial attacks$();$()$(li)Use Trick Dodge in Boss fights for $(thing)precise positioning$() and $(thing)canceling Sword Arts recovery$();$()$(li)Use Trick Dodge while traveling to $(thing)increase movement efficiency$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trick Up$()$()$(br2)$(thing)Function$(): Teleport upward a certain distance.$()$(br)$(thing)Keys$(): $(k:sneak) + $(k:forward) + $(k:slashblade.special_move)$()$(br2)$(thing)Trigger conditions$():$()$(li)Special move key was not pressed previously;$()$(li)Simultaneously hold $(thing)sneak, forward, and special move$().$()$(br2)$(thing)Effects$():$()$(li)Grants $(thing)0.5 seconds$() invincibility;$()$(li)Resets vertical fall speed to $(thing)0.8 blocks/second$() (similar to a jump).$()If a target is locked, $(thing)Air Trick$() will be triggered first."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "air_trick",
+      "text": "$(thing)Air Trick$()$()$(br2)$(thing)Function$(): Instantly teleport to the head position of a $(thing)locked target$().$()$(br)$(thing)Keys$(): $(k:sneak) + $(k:forward) + $(k:slashblade.special_move)$()$(br2)$(thing)Trigger conditions$():$()$(li)A target is locked;$()$(li)Key conditions same as Trick Up.$()$(br2)$(thing)Priority$(): When both Trick Up and Air Trick conditions are met, $(thing)Air Trick takes priority$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Air Trick trigger process$():$()$(li)If the target $(thing)damaged you within 5 seconds$(), teleport directly;$()$(li)Otherwise, fires a $(thing)very low-damage Summoned Sword$() that teleports you upon hit (if it hits a different target, teleport is canceled).$()$(br2)$(thing)Teleport effects$():$()$(li)Grants $(thing)0.5 seconds$() invincibility;$()$(li)Resets Sword Arts to $(thing)'standby' state$() (cancel effect);$()$(li)Teleports to $(thing)in front of the target's face$() (can cross dimensions);$()$(li)Forces exit from riding/sleeping state.$()$(br2)$(o)Note: 'Standby' state is still considered as using Sword Arts in some checks, different from Kick Jump's 'none' state.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trick Down$()$()$(br2)$(thing)Function$(): Quickly land when in the air.$()$(br)$(thing)Keys$(): $(k:sneak) + $(k:back) + $(k:slashblade.special_move)$()$(br2)$(thing)Trigger conditions$():$()$(li)Trick Up or Air Trick was not triggered previously;$()$(li)In the $(thing)air$();$()$(li)Simultaneously hold $(thing)sneak, backward, and special move$().$()$(br2)$(thing)Effects$():$()$(li)Moves downward $(thing)5 blocks$() (succeeds if lands, otherwise reverts);$()$(li)Grants $(thing)0.5 seconds$() invincibility.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trick Dodge$()$()$(br2)$(thing)Function$(): Short-distance teleport in $(thing)any direction$(), used to evade damage or travel.$()$(br)$(thing)Keys$(): $(k:slashblade.special_move) + $(k:forward) / $(k:back) / $(k:left) / $(k:right)$()$(br2)$(thing)Trigger conditions$():$()$(li)No other Trick abilities triggered previously;$()$(li)Standing on $(thing)ground$();$()$(li)Holding $(thing)special move$() and any directional key;$()$(li)$(thing)Consecutive uses less than 3$(), or $(thing)1 second$() has passed since last use.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Trick Dodge effects$():$()$(li)Displaces $(thing)3 blocks$() in the key direction (won't fall off edges);$()$(li)Grants $(thing)0.5 seconds$() invincibility;$()$(li)Resets Sword Arts to $(thing)'standby' state$() (cancel effect, same as Air Trick).$()$(br2)$(thing)Consecutive use limit$():$()$(br)Maximum $(thing)3 consecutive uses$(), then requires $(thing)1 second$() cooldown before reuse.$()$(br2)$(thing)Travel technique$():$()$(br)Intermittently press $(k:slashblade.special_move) + $(k:forward) for $(thing)consecutive forward teleports$(), greatly increasing movement speed."
+    }
+  ],
+  "sortnum": 0
+}
